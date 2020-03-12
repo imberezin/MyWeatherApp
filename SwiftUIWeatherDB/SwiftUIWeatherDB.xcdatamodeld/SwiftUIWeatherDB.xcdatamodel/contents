@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19E258a" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cities" representedClassName="Cities" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="imageName" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="state" optional="YES" attributeType="String"/>
+        <attribute name="updateTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <relationship name="coordinates" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CitiesCoordinates" inverseName="city" inverseEntity="CitiesCoordinates"/>
+        <relationship name="periods" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="WeatherPeriod" inverseName="city" inverseEntity="WeatherPeriod"/>
+    </entity>
+    <entity name="CitiesCoordinates" representedClassName="CitiesCoordinates" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="city" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cities" inverseName="coordinates" inverseEntity="Cities"/>
+    </entity>
+    <entity name="WeatherPeriod" representedClassName="WeatherPeriod" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudsCoded" optional="YES" attributeType="String"/>
+        <attribute name="dateTimeISO" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="humidity" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="loolLikeC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="sky" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tempAvgC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tempMaxC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="tempMinC" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="uvi" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="weather" optional="YES" attributeType="String"/>
+        <attribute name="windGustKPH" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <relationship name="city" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cities" inverseName="periods" inverseEntity="Cities"/>
+    </entity>
+    <elements>
+        <element name="Cities" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="CitiesCoordinates" positionX="-54" positionY="27" width="128" height="88"/>
+        <element name="WeatherPeriod" positionX="-36" positionY="63" width="128" height="253"/>
+    </elements>
+</model>

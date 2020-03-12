@@ -1,0 +1,143 @@
+
+[
+    {
+        "city": "Jerusalem",
+        "state": "Israel",
+        "id": 1001,
+        "coordinates": {
+            "latitude": 31.76904,
+            "longitude": 35.21633
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Tel Aviv",
+        "state": "Israel",
+        "id": 1002,
+        "coordinates": {
+            "latitude": 32.08088,
+            "longitude": 34.78057
+        },
+        "imageName": "telAviv"
+    },
+    {
+        "city": "haifa",
+        "state": "Israel",
+        "id": 1003,
+        "coordinates": {
+            "latitude": 32.81841,
+            "longitude": 34.9885
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Beersheba",
+        "state": "Israel",
+        "id": 1004,
+        "coordinates": {
+            "latitude": 31.25181,
+            "longitude": 34.7913
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Ben-Gurion",
+        "state": "Israel",
+        "id": 1005,
+        "coordinates": {
+            "latitude": 31.9467,
+            "longitude": 34.8903
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Modiin",
+        "state": "Israel",
+        "id": 1006,
+        "coordinates": {
+            "latitude": 31.89825,
+            "longitude": 35.01051
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Eilat",
+        "state": "Israel",
+        "id": 1008,
+        "coordinates": {
+            "latitude": 29.56111,
+            "longitude": 34.95167
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Tiberias",
+        "state": "Israel",
+        "id": 1009,
+        "coordinates": {
+            "latitude": 32.79556,
+            "longitude": 35.52861
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Safed",
+        "state": "Israel",
+        "id": 1010,
+        "coordinates": {
+            "latitude": 32.96465,
+            "longitude": 35.496
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Nahariya",
+        "state": "Israel",
+        "id": 1011,
+        "coordinates": {
+            "latitude": 33.01135,
+            "longitude": 35.09467
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Ashdod",
+        "state": "Israel",
+        "id": 1012,
+        "coordinates": {
+            "latitude": 31.79213,
+            "longitude": 34.64966
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Ashqelon",
+        "state": "Israel",
+        "id": 1013,
+        "coordinates": {
+            "latitude": 31.66926,
+            "longitude": 34.57149
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Bet Shemesh",
+        "state": "Israel",
+        "id": 1014,
+        "coordinates": {
+            "latitude": 31.73072,
+            "longitude": 34.99293
+        },
+        "imageName": "jerusalem"
+    },
+    {
+        "city": "Netanya",
+        "state": "Israel",
+        "id": 1015,
+        "coordinates": {
+            "latitude": 32.321457,
+            "longitude": 34.853195
+        },
+        "imageName": "jerusalem"
+    }
+]
