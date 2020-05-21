@@ -114,16 +114,6 @@ struct ExDivider: View {
  
  */
 
-struct PrimaryLabel: ViewModifier {
-    
-    let font = Font.system(.subheadline).weight(.semibold)
-    
-    func body(content: Content) -> some View {
-        content
-            .font(font)
-            .foregroundColor(Color.white)
-    }
-}
 
 struct FirstMidView: View {
     
